@@ -9,7 +9,7 @@ import { socials } from '../constants';
 const Footer = () => (
   <motion.footer variants={footerVariants}
     initial="hidden"
-    whileHover="show"
+    whileInView="show"
     className={`${styles.paddings} py-8 relative`}
   >
     <div className="footer-gradient" />
